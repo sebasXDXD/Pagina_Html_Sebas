@@ -2,4 +2,19 @@ h1{
   color: #11ec5b;
   background-color: red;
   font-family: Helvetica;
+  font-size: 35px;
+  padding: 20px;
+  width: 50%;
+  height: 40px;
+}
+.PARRAFOS{
+text-align: center;
+font-size: 15px;
+
+
+}
+
+body{
+  font-family: Helvetica;
+
 }

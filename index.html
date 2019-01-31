@@ -6,36 +6,50 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
 <body>
-    <h1>Tu peso en otro planeta By:Sebastian</h1>
-        <p>En la tierra pesas distinto que en Marte o Jupiter, debido a la gravedad</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          çin voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</body>
 
-  <script>
-        var usuario = prompt("Cual es tu peso?");
-        var planeta=parseInt(prompt("Elige un planeta \n 1 es Marte, 2 es Jupiter"));
-        var peso = parseInt(usuario);
-        var g_tierra = 9.8;
-        var g_marte = 3.7;
-        var g_jupiter = 24.8;
-        var planeta_elegido;
-        var peso_final;
-        if(planeta==1){
-          peso_final = peso * g_marte / g_tierra;
-          planeta_elegido='Marte';
-        }else if(planeta==2){
-          peso_final = peso * g_jupiter / g_tierra;
-            planeta_elegido='Jupiter';
-        }else {
-          peso_final=3213514651325135;
-            planeta_elegido='Planeta desconocido';
-        }
 
-        peso_final = parseInt(peso_final);
-        document.write("Tu peso en <strong>"+planeta_elegido+"</strong> es <strong>" + peso_final + "</strong> kilos");
-  </script>
+        <MARQUEE WIDTH=70%>
+        <center>
+          <h1>Tu peso en otro planeta By:Sebastian</h1>
+        </center>
+         </MARQUEE>
+
+             <div class="PARRAFOS">
+
+                  <p>En la tierra pesas distinto que en Marte o Jupiter, debido a la gravedad</p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                    çin voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+              </div>
+
+
+        <script>
+              var usuario = prompt("Cual es tu peso?");
+              var planeta=parseInt(prompt("Elige un planeta \n 1 es Marte, 2 es Jupiter"));
+              var peso = parseInt(usuario);
+              var g_tierra = 9.8;
+              var g_marte = 3.7;
+              var g_jupiter = 24.8;
+              var planeta_elegido;
+              var peso_final;
+              if(planeta==1){
+                peso_final = peso * g_marte / g_tierra;
+                planeta_elegido='Marte';
+              }else if(planeta==2){
+                peso_final = peso * g_jupiter / g_tierra;
+                  planeta_elegido='Jupiter';
+              }else {
+                peso_final=3213514651325135;
+                  planeta_elegido='Planeta desconocido';
+              }
+
+              peso_final = parseInt(peso_final);
+              document.write("Tu peso en <strong>"+planeta_elegido+"</strong> es <strong>" + peso_final + "</strong> kilos");
+        </script>
+
+  </body>
 </html>
